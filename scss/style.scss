@@ -96,6 +96,7 @@ h2 {
   }
 
   &__body {
+    position: relative;
     padding: rem(20) 0;
     display: flex;
     justify-content: space-between;
@@ -1774,7 +1775,7 @@ h2 {
     display: block;
     text-align: right;
     text-transform: uppercase;
-    font-size: rem(16);
+    font-size: rem(24);
     color: #898989;
     @media (min-width: rem(550)) {
       display: none;
