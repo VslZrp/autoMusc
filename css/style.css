@@ -1610,7 +1610,8 @@ h2 {
   display: block;
   text-align: right;
   text-transform: uppercase;
-  font-size: 1.25rem;
+  font-size: 0.875rem;
+  letter-spacing: 0.0375rem;
   color: #898989;
 }
 @media (min-width: 34.375rem) {

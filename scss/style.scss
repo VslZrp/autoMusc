@@ -1775,7 +1775,8 @@ h2 {
     display: block;
     text-align: right;
     text-transform: uppercase;
-    font-size: rem(20);
+    font-size: rem(14);
+    letter-spacing: rem(0.6);
     color: #898989;
     @media (min-width: rem(550)) {
       display: none;
