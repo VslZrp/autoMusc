@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="widdiv=device-widdiv, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <title>Прайс-лист</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header header_prices">
+        <div class="header__container _container">
+          <div class="header__body">
+            <nav class="header__menu menu menu_prices">
+              <ul class="menu__list menu__list_prices">
+                <li class="menu__link">
+                  <a href="index.html">Главная</a>
+                </li>
+                <li class="menu__link">
+                  <a href="glueing.html">Оклейка автомобилей</a>
+                </li>
+                <li class="menu__link">
+                  <a href="detailing.html">Детейлинг автомобилей</a>
+                </li>
+                <li class="menu__link">
+                  <a data-scrollto=".gallery" href="#">Галерея работ</a>
+                </li>
+                <li class="menu__link">
+                  <a data-scrollto=".contacts" href="#">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main class="page4__prices prices">
+        <section class="prices-main">
+          <div class="main__background background-main">
+            <img src="./images/mainPage/Rectangle 64.jpg" alt="Green Toyota" />
+          </div>
+          <div class="prices__container _container">
+            <div class="services__body">
+              <div class="services__title"><h2>Стоимость услуг</h2></div>
+              <div class="services__squares squares">
+                <span></span><span></span><span></span><span></span>
+              </div>
+              <div class="services__tab tab-services">
+                <div class="tab-services__body">
+                  <div class="tab-services__service using">
+                    <a data-price="glueing-price" href="#">Оклейка</a>
+                  </div>
+                  <div class="tab-services__service">
+                    <a data-price="detailing-price" href="#">Детейлинг</a>
+                  </div>
+                </div>
+              </div>
+              <div class="prices__scroll">
+                <span>больше при скролле >>></span>
+              </div>
+              <div id="glueing-price" class="prices__table openPriceTab">
+                <div class="glue-price__table-wrapper">
+                  <table class="glue-price__table table-glue">
+                    <tr class="table-glue__header">
+                      <td class="table-glue__header-item">
+                        <span>авто / Материал</span>
+                      </td>
+                      <td class="table-glue__header-item">
+                        <span>Пленка Spectroll</span>
+                      </td>
+                      <td class="table-glue__header-item">
+                        <span>Пленка Hexis</span>
+                      </td>
+                      <td class="table-glue__header-item">
+                        <span>Пленка SunTek</span>
+                      </td>
+                      <td class="table-glue__header-item">
+                        <span>Пленка LLumar</span>
+                      </td>
+                    </tr>
+
+                    <tr class="table-glue__row">
+                      <td class="table-glue__item_auto table-glue__item">
+                        <span
+                          >1 класс <br />
+                          (Mini cooper, Fiat 500)</span
+                        >
+                      </td>
+                      <td class="table-glue__item"><span>53 000 ₽</span></td>
+                      <td class="table-glue__item"><span>64 000 ₽</span></td>
+                      <td class="table-glue__item"><span>69 000 ₽</span></td>
+                      <td class="table-glue__item"><span>72 000 ₽</span></td>
+                    </tr>
+                    <tr class="table-glue__row">
+                      <td class="table-glue__item_auto table-glue__item">
+                        <span
+                          >2 класс <br />
+                          (BMW 3, Mercedes)</span
+                        >
+                      </td>
+                      <td class="table-glue__item"><span>53 000 ₽</span></td>
+                      <td class="table-glue__item"><span>64 000 ₽</span></td>
+                      <td class="table-glue__item"><span>69 000 ₽</span></td>
+                      <td class="table-glue__item"><span>72 000 ₽</span></td>
+                    </tr>
+                    <tr class="table-glue__row">
+                      <td class="table-glue__item_auto table-glue__item">
+                        <span
+                          >4 класс <br />
+                          (BMW 7, Mercedes S)</span
+                        >
+                      </td>
+                      <td class="table-glue__item"><span>53 000 ₽</span></td>
+                      <td class="table-glue__item"><span>64 000 ₽</span></td>
+                      <td class="table-glue__item"><span>69 000 ₽</span></td>
+                      <td class="table-glue__item"><span>72 000 ₽</span></td>
+                    </tr>
+                    <tr class="table-glue__row">
+                      <td class="table-glue__item_auto table-glue__item">
+                        <span
+                          >5 класс <br />
+                          (BMW X3,X4, Mercedes)</span
+                        >
+                      </td>
+                      <td class="table-glue__item"><span>53 000 ₽</span></td>
+                      <td class="table-glue__item"><span>64 000 ₽</span></td>
+                      <td class="table-glue__item"><span>69 000 ₽</span></td>
+                      <td class="table-glue__item"><span>72 000 ₽</span></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div id="detailing-price" class="prices__table">
+                <div class="glue-price__table-wrapper">
+                  <table class="glue-price__table table-glue">
+                    <tr class="table-glue__header">
+                      <td class="table-glue__header-item">
+                        <span>авто / Материал</span>
+                      </td>
+                      <td class="table-glue__header-item">
+                        <span>somewhere</span>
+                      </td>
+                      <td class="table-glue__header-item">
+                        <span>Something</span>
+                      </td>
+                      <td class="table-glue__header-item">
+                        <span>Someone</span>
+                      </td>
+                      <td class="table-glue__header-item">
+                        <span>the thing</span>
+                      </td>
+                    </tr>
+
+                    <tr class="table-glue__row">
+                      <td class="table-glue__item_auto table-glue__item">
+                        <span
+                          >1 класс <br />
+                          (Mini cooper, Fiat 500)</span
+                        >
+                      </td>
+                      <td class="table-glue__item"><span>153 000 ₽</span></td>
+                      <td class="table-glue__item"><span>264 000 ₽</span></td>
+                      <td class="table-glue__item"><span>169 000 ₽</span></td>
+                      <td class="table-glue__item"><span>372 000 ₽</span></td>
+                    </tr>
+                    <tr class="table-glue__row">
+                      <td class="table-glue__item_auto table-glue__item">
+                        <span
+                          >2 класс <br />
+                          (BMW 3, Mercedes)</span
+                        >
+                      </td>
+                      <td class="table-glue__item"><span>53 1000 ₽</span></td>
+                      <td class="table-glue__item"><span>64 1000 ₽</span></td>
+                      <td class="table-glue__item"><span>69 0000 ₽</span></td>
+                      <td class="table-glue__item"><span>72 1000 ₽</span></td>
+                    </tr>
+                    <tr class="table-glue__row">
+                      <td class="table-glue__item_auto table-glue__item">
+                        <span
+                          >4 класс <br />
+                          (BMW 7, Mercedes S)</span
+                        >
+                      </td>
+                      <td class="table-glue__item"><span>153 000 ₽</span></td>
+                      <td class="table-glue__item"><span>614 000 ₽</span></td>
+                      <td class="table-glue__item"><span>619 000 ₽</span></td>
+                      <td class="table-glue__item"><span>722 000 ₽</span></td>
+                    </tr>
+                    <tr class="table-glue__row">
+                      <td class="table-glue__item_auto table-glue__item">
+                        <span
+                          >5 класс <br />
+                          (BMW X3,X4, Mercedes)</span
+                        >
+                      </td>
+                      <td class="table-glue__item"><span>153 000 ₽</span></td>
+                      <td class="table-glue__item"><span>164 000 ₽</span></td>
+                      <td class="table-glue__item"><span>169 000 ₽</span></td>
+                      <td class="table-glue__item"><span>172 000 ₽</span></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="gallery" class="page__gallery gallery">
+          <div class="gallery__body">
+            <div class="gallery__title"><h2>Наши работы</h2></div>
+            <div class="gallery__squares squares">
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <div class="gallery__content">
+              <div class="gallery__image">
+                <img src="./images/Gallery/1.jpg" alt="car photo" />
+              </div>
+              <div class="gallery__image">
+                <img src="./images/Gallery/2.jpg" alt="car photo" />
+              </div>
+              <div class="gallery__image">
+                <img src="./images/Gallery/3.jpg" alt="car photo" />
+              </div>
+              <div class="gallery__image">
+                <img src="./images/Gallery/4.jpg" alt="car photo" />
+              </div>
+              <div class="gallery__image">
+                <img src="./images/Gallery/5.jpg" alt="car photo" />
+              </div>
+              <div class="gallery__image">
+                <img src="./images/Gallery/6.jpg" alt="car photo" />
+              </div>
+              <div class="gallery__image">
+                <img src="./images/Gallery/6.jpg" alt="car photo" />
+              </div>
+              <div class="gallery__image">
+                <img src="./images/Gallery/5.jpg" alt="car photo" />
+              </div>
+              <div class="gallery__image">
+                <img src="./images/Gallery/4.jpg" alt="car photo" />
+              </div>
+              <div class="gallery__image">
+                <img src="./images/Gallery/3.jpg" alt="car photo" />
+              </div>
+              <div class="gallery__image">
+                <img src="./images/Gallery/2.jpg" alt="car photo" />
+              </div>
+              <div class="gallery__image">
+                <img src="./images/Gallery/1.jpg" alt="car photo" />
+              </div>
+              <div class="gallery__image">
+                <img src="./images/Gallery/1.jpg" alt="car photo" />
+              </div>
+              <div class="gallery__image">
+                <img src="./images/Gallery/2.jpg" alt="car photo" />
+              </div>
+              <div class="gallery__image">
+                <img src="./images/Gallery/3.jpg" alt="car photo" />
+              </div>
+              <div class="gallery__image">
+                <img src="./images/Gallery/4.jpg" alt="car photo" />
+              </div>
+              <div class="gallery__image">
+                <img src="./images/Gallery/5.jpg" alt="car photo" />
+              </div>
+              <div class="gallery__image">
+                <img src="./images/Gallery/6.jpg" alt="car photo" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="page__contacts contacts">
+          <div class="contacts__container _container">
+            <div class="contacts__body">
+              <div class="contacts__title">
+                <h2>ответим на любой вопрос</h2>
+              </div>
+              <div class="contacts__squares squares">
+                <span></span><span></span><span></span><span></span>
+              </div>
+              <form class="contacts__form">
+                <div class="contacts__inputs inputs">
+                  <div class="inputs__input">
+                    <input
+                      tabindex="1"
+                      name="name"
+                      type="text"
+                      placeholder="Имя"
+                      class="need-to-write _req"
+                    />
+                  </div>
+                  <div class="inputs__input">
+                    <input
+                      tabindex="2"
+                      name="tel"
+                      type="tel"
+                      placeholder="телефон"
+                      class="need-to-write _req"
+                    />
+                  </div>
+                </div>
+                <div class="contacts__questions-wrapper">
+                  <div class="contacts__questions">
+                    <textarea
+                      class="contacts__textarea need-to-write _req"
+                      tabindex="3"
+                      name="questions"
+                      placeholder="Вопрос по дизайну, тюнингу и др."
+                      maxlength="3000"
+                    ></textarea>
+                  </div>
+                  <div class="contacts__social social">
+                    <div class="social__body">
+                      <div class="social__item">
+                        <a href="#" class="social__link"
+                          ><img
+                            src="./images/icons/Telegram.svg"
+                            alt="tg"
+                            class="social__icon"
+                        /></a>
+                      </div>
+                      <div class="social__item">
+                        <a href="#" class="social__link"
+                          ><img
+                            src="./images/icons/Youtube.svg"
+                            alt="yt"
+                            class="social__icon"
+                        /></a>
+                      </div>
+                      <div class="social__item">
+                        <a href="#" class="social__link"
+                          ><img
+                            src="./images/icons/vk.svg"
+                            alt="vk"
+                            class="social__icon"
+                        /></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="contacts__submit-wrapper">
+                  <div class="contacts__action">
+                    <div class="contacts__button-rectangle"></div>
+                    <button type="submit" class="contacts__button">
+                      отправить
+                    </button>
+                  </div>
+                  <div class="contacts__contacts contacts-block">
+                    <div class="contacts-block__body">
+                      <div class="contacts-block__address">
+                        <a href="#" class="contacts-block__link">
+                          <img
+                            src="./images/icons/location.svg"
+                            alt="location"
+                          />
+                          <span>Eu faucibus et rutrum fringilla orci nunc</span>
+                        </a>
+                      </div>
+                      <div class="contacts-block__mail-tel">
+                        <div class="contacts-block__phone">
+                          <a
+                            href="tel:88121234567"
+                            class="contacts-block__link"
+                          >
+                            <img src="./images/icons/phone.svg" alt="phone" />
+                            <span>8 (812) 123-45-67</span>
+                          </a>
+                        </div>
+                        <div class="contacts-block__email">
+                          <a
+                            href="mailto:test@test.ru"
+                            class="contacts-block__link"
+                          >
+                            <img src="./images/icons/mail.svg" alt="email" />
+                            <span>test@test.ru</span>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container _container">
+          <div class="footer__body">
+            <div class="footer__rights">
+              <span
+                >2022 © Est et viverra pellentesque pharetra lorem proin in.
+                Vitae magna at tempus commodo.</span
+              >
+            </div>
+            <nav class="footer__menu menu">
+              <ul class="menu__list">
+                <li class="menu__link">
+                  <a href="index.html">Главная</a>
+                </li>
+                <li class="menu__link">
+                  <a href="glueing.html">Оклейка автомобилей</a>
+                </li>
+                <li class="menu__link">
+                  <a href="detailing.html">Детейлинг автомобилей</a>
+                </li>
+                <li class="menu__link">
+                  <a data-scrollto=".gallery" href="#">Галерея работ</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./scripts/prices.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "ReformaGrotesk";
+  src: url("ReformaGroteskMediumC.eot");
+  src: local("ReformaGroteskMediumC"),
+    url("ReformaGroteskMediumC.eot?#iefix") format("embedded-opentype"),
+    url("ReformaGroteskMediumC.woff") format("woff"),
+    url("ReformaGroteskMediumC.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ReformaGrotesk";
+  src: url("ReformaGroteskDemiC.eot");
+  src: local("ReformaGroteskDemiC"),
+    url("ReformaGroteskDemiC.eot?#iefix") format("embedded-opentype"),
+    url("ReformaGroteskDemiC.woff") format("woff"),
+    url("ReformaGroteskDemiC.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ReformaGrotesk";
+  src: url("ReformaGroteskBoldC.eot");
+  src: local("ReformaGroteskBoldC"),
+    url("ReformaGroteskBoldC.eot?#iefix") format("embedded-opentype"),
+    url("ReformaGroteskBoldC.woff") format("woff"),
+    url("ReformaGroteskBoldC.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
